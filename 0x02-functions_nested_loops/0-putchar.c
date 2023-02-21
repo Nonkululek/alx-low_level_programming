@@ -5,18 +5,11 @@
  */
 int main(void)
 {
-int n;
-n=48
-while (n <= 57)
+char *sh;
+while (*sh)
 {
-putchar (n);
-n++;
-}
-n= 97;
-while (n <= 102);
-{
-putchar (n);
-n++;
+putchar (*sh);
+sh++;
 }
 putchar ('\n');
 return (0);
