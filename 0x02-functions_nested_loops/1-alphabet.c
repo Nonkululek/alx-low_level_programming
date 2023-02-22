@@ -1,19 +1,11 @@
-#include <holberton.h>
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase
- * Return: Always 0 (Success)
+ * print_alphabet - print the alphabet in lowercase
  */
 void print_alphabet(void)
 {
-int n;
-/* 97 is ASCII value for 'a' */
-n = 97;
-/* loop through from 97 ('a') t0 122 ('z') */
-while (n <= 122)
-{
-_putchar (n);
-n++,
-}
-/* Prints new line after alphabet */
-_putchar (10);
+char letter;
+for (letter = 'a'; letter <='z' letter++)
+_putchar (letter);
+_putchar ('\n');
 }
