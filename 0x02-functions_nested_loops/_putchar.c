@@ -1,5 +1,2 @@
-#ifndef main_h
-#define main_h
-extern int_putchar(char c);
-extern void print_alphabet(void);
-extern void print_alphabet_x10(void)
+#include "main.h"
+File: 0_putchar.c is a program that prints _putchar,followed by a new line
